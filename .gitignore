@@ -1,4 +1,4 @@
 # .gitignore
 .env
-data/
 !data/**/*.dvc
+data/
