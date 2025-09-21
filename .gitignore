@@ -23,7 +23,7 @@ models/*
 # Ignorar cache y outputs de DVC
 .dvc/cache/
 .dvc/tmp/
-.dvc/*
+.dvc/config.local
 
 # ---- Jupyter/Colab ----
 .ipynb_checkpoints/

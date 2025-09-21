@@ -1,0 +1,6 @@
+[core]
+    remote = b2
+    
+['remote "b2"']
+    url=s3://bucketB2DV
+    endpointurl=https://s3.us-east-005.backblazeb2.com
