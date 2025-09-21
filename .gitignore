@@ -1,4 +1,53 @@
-# .gitignore
+# ---- Configuración del entorno ----
 .env
+*.env
+*.venv
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+.DS_Store
+
+# ---- DVC ----
+# Ignorar todo en data, pero permitir .dvc
+data/*
 !data/**/*.dvc
-data/
+
+# Ignorar todo en models, pero permitir .dvc
+models/*
+!models/**/*.dvc
+
+# Ignorar cache y outputs de DVC
+.dvc/cache/
+.dvc/tmp/
+.dvc/config
+
+# ---- Jupyter/Colab ----
+.ipynb_checkpoints/
+*.ipynb_convert
+
+# ---- Logs ----
+*.log
+logs/
+wandb/
+mlruns/
+
+# ---- Resultados temporales ----
+outputs/
+results/
+checkpoints/
+*.ckpt
+
+# ---- Archivos comprimidos ----
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+
+# ---- IDE ----
+.vscode/
+.idea/

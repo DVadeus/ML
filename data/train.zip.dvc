@@ -1,0 +1,5 @@
+outs:
+- md5: 69510ffdd7049e98f6958d3a6f39ed62
+  size: 3259193515
+  hash: md5
+  path: train.zip
