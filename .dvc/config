@@ -1,7 +1,0 @@
-[core]
-    remote = b2
-['remote "b2"']
-    url=s3://bucketB2DV
-    endpointurl=https://s3.us-east-005.backblazeb2.com
-    access_key_id=005b4c666d083cd0000000001
-    secret_access_key=K005c4EGyeK//0yhyzTy4ucBr4Mexzs
