@@ -1,0 +1,14 @@
+stages:
+  prepare:
+    cmd: python dags/ops_preprocessing.py
+    deps:
+      - data/train.zip
+      - data/val.zip
+    outs:
+      - data/processed
+  train:
+    cmd: python dags/pipeline_classify.py
+    deps:
+      - data/processed
+    outs:
+      - models/model.pt

@@ -1,0 +1,12 @@
+dagster
+dagit
+boto3
+torch
+torchvision
+pillow
+pycocotools
+mlflow
+dvc[s3]
+dagster-postgres
+python-dotenv
+scikit-learn
